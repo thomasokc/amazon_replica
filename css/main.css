@@ -1,0 +1,150 @@
+body{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif ;
+    color:rgb(48,40,46);
+}
+
+img{
+    margin:2%;
+}
+
+.sign_in{
+    text-align: left;
+    border: 2px solid rgb(224,224,224);
+    border-radius: 4px;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.sign-in-title{
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.password-heading{
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.password-heading h4{
+    margin:1%;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.password-heading h5{
+    margin: 2%;
+    font-weight: lighter;
+}
+
+.password-heading a{
+    text-decoration: none;
+    color: rgb(85,155,255);
+}
+
+.password-heading a:hover{
+    color: blue;
+}
+
+.your_info{
+    width: 100%;
+    padding: 1%;
+    font-size: 100%;
+}
+
+.continue{
+    background-color: rgb(247,197,72);
+    border: 1px solid rgb(190,153,59);
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.continue:hover{
+    background-color: rgb(255,153,0);
+}
+
+#help{
+    display: inline;  
+    color:rgb(85,155,255);
+}
+
+#help a{
+    text-decoration: none;
+    color: rgb(85,155,255);
+}
+
+#help a:hover{
+    color: blue;
+}
+
+
+
+.trio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#new{
+    color:rgb(154,129,118);
+    font-weight: lighter;
+    text-align: center;
+}
+
+.line{
+    background-color: rgb(154,129,118);
+    height: 2px;
+    width:6%;
+    margin:30px;
+}
+
+.create{
+    width: 22%;
+    padding: 8px;
+    background-color: rgb(231,233,236);
+    border: 1px solid rgb(193,196,201);
+    border-radius: 2px;
+    margin-bottom: 75px;
+}
+
+.create:hover{
+    background-color: rgb(193,196,201);
+}
+
+footer{
+    border-top: 2px solid rgb(224,224,224);
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+#info{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+#info a{
+    text-decoration: none;
+    color:rgb(85,155,255);
+}
+
+#info a:hover{
+    color: blue;
+}
